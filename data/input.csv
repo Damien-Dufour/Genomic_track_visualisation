@@ -1,0 +1,3 @@
+input_modality, input_day, path, input_ttt
+"ATAC", "day5", "data/example/track1_chr3.bw", "control"
+"ATAC", "day6", "data/example/track2_chr3.bw", "experimental"

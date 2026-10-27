@@ -1,0 +1,37 @@
+# Author : Damien Dufour, University of Oslo 
+
+# working directory is track_visualisation
+
+# Analysis title
+title: example
+
+# inputs
+
+bw_file: data/input.csv # contain path to bw and metadata
+
+genome: "hg38"
+
+# Output
+results_dir: results/
+
+# Conditions  
+# list several parameters in the same string ! e.g. "treatment1, treatment2", "ATAC,H3K27me3"
+# parameters should correspond to values in the bw file 
+
+day: "day5,day6"
+
+modality: "ATAC"
+
+ttt: "control,experimental" 
+
+# plotting info
+
+coordinates: "chr3:12,252,751-12,510,000"
+
+max: 1
+
+# Visualise 3D interactions
+# bedpe file should have no header and have the columns arranged in the following order "chr1", "start1", "end1", "chr2", "start2", "end2", "count" 
+
+interaction: T
+interaction_file: data/example/example_interaction.bedpe
