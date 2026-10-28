@@ -284,7 +284,7 @@ if(Interaction == F) {
     col.title = "black",
     fontcolor = "black",
     showAxis = F,
-    fontsize = 5,
+    fontsize = 3,
     stacking="squish",
     collapseTranscripts  = "meta",   # or "meta", or "gene" or F
     transcriptAnnotation = "symbol",     # show gene symbols if available
@@ -351,7 +351,7 @@ plotTracks(
   col.title = "black",
   fontcolor = "black",
   showAxis = F,
-  fontsize = 5,
+  fontsize = 3,
   stacking="squish",
   collapseTranscripts  = "meta",   # or "meta", or "gene" or F
   transcriptAnnotation = "symbol",     # show gene symbols if available
@@ -365,7 +365,7 @@ plotTracks(
 dev.off()
 }
 
- write.csv(sample_sheet,
+ write.csv(filtered_samples,
            paste0(xargs$output,"/data/",gene_name,"_input_data.csv"))
 
 cat(paste0(gene_name," done"))
