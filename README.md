@@ -5,7 +5,7 @@ A [Snakemake](https://snakemake.readthedocs.io/) tool that plots genomic tracks 
 ## Requirements
 
 - [Snakemake](https://snakemake.readthedocs.io/en/stable/) ≥ 7
-- R ≥ 4.0 with the bioconductor 
+- R ≥ 4.0 with bioconductor 
 
 ```bash
 # quick check
